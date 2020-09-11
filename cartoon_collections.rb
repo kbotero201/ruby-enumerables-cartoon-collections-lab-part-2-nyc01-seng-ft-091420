@@ -30,7 +30,8 @@ def find_valid_calls(planeteer_calls)
       valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
     if planeteer_calls.include?(element)
       return element
+    else return nil
     end
     end
-    nil
+  
   end
